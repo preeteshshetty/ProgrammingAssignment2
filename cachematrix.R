@@ -22,7 +22,6 @@ list(set=set,get=get,
      getinverse=getinverse)
 }
 
-
 ## The below function computes the inverse of the special "vector" created with the above function.
 ##However, it first checks to see if the inverse has already been computed before.
 ##If so, it gets the inverse from the cache and skips the calculation.
